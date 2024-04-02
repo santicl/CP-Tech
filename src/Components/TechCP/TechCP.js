@@ -34,7 +34,7 @@ function TechCP() {
     };
 
     return (
-        <div style={{ maxWidth: '100%', overflowX: 'auto', margin: '0 auto', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <div style={{ maxWidth: '100%', overflowX: 'auto', margin: '0 auto', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
             <h1 style={{ textAlign: 'center', fontSize: '24px', marginBottom: '20px', marginTop: '50px' }}>Tech Cleaner Program</h1>
             <p style={{ textAlign: 'center', fontSize: '15px', marginBottom: '20px' }}>Este programa está desarrollado para asignar grupos de aseo durante el año disponible</p>
             {showTable ? (
