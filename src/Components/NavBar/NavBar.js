@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <nav>
             <div className="C-Navbar">
-                <img src={ImageBrand} />
+                <img src={ImageBrand} alt='Brand' />
             </div>
         </nav>
     )

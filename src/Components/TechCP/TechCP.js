@@ -18,7 +18,7 @@ function TechCP() {
         // Ejecutar la función para obtener las asignaciones
         const assignmentsData = assignTasks(addDays, startDate, weeks, groups);
         setAssignments(assignmentsData);
-    }, []);
+    }, [groups]);
 
     function getDay(date) {
         const weekdays = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
