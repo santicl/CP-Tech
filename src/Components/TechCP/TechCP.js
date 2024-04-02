@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { addDays, format, endOfYear, startOfWeek } from 'date-fns';
 import { es } from 'date-fns/locale'; // Importa el locale en español
 import assignTasks from './assignTasks';
