@@ -29,6 +29,9 @@
       "not dead",
       "not op_mini all"
     ],
+    "dependencies": {
+      "date-fns": "^3.6.0"
+    },
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
