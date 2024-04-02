@@ -1,3 +1,3 @@
 [build]
-  base = "app"
+  base = "/"
   publish = "app/build"
